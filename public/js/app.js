@@ -9,7 +9,7 @@ var main = function() {
   });
   $('#image-url').keyup(function(){
     var $newUrl = $(this).val();
-    $('img').attr('src', $newUrl);
+    $('.meme img').attr('src', $newUrl);
   });
 };
 
